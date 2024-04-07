@@ -1,0 +1,181 @@
+.image-title {
+    text-align: center;
+    background-color: #fffdc0;
+}
+
+.navbar {
+    background-color: #fdf974; /*70cf90*/
+    /* overflow: hidden; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.navbar a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: #e07934; /*e07934*/
+}
+
+.navbar a:hover {
+    background-color: #e07934;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    color: #194e2b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('../images/bgsite.jpeg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    padding-top: 25px;
+    background-repeat: repeat-y;
+}
+
+.content h1 {
+margin-block-start: 0;
+margin-block-end: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-button {
+    display: inline-block;
+    margin: 20px;
+}
+
+.submit-button input[type="submit"] {
+    background-color: #fdf974;
+    color: #e07934;
+    padding: 20px;
+    font-size: 22px;
+    border: none;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+    width: 500px;
+    margin-bottom: 250px;
+}
+
+.returnbutton button {
+    background-color: #fdf974;
+    color: #e07934;
+    padding: 20px;
+    font-size: 22px;
+    border: none;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+    width: 500px;
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #e07934;
+    color: white; 
+}
+
+.returnbutton button:hover {
+    background-color: #e07934; 
+    color: white; 
+}
+
+.food-table {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #70cf90;
+    border-radius: 15px;
+    background-color: #aeddb9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    color: #194e2b;
+    text-decoration: none;
+}
+
+.food-table th {
+    background-color: #70cf90;
+    color: #e07934;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    border-collapse: collapse;
+    min-width: 180px;
+    text-decoration: none;
+
+}
+
+.food-table th, .food-table td {
+    border: 1px solid #70cf90;
+    border-collapse: collapse;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.food-table tr:nth-child(even) {
+    background-color: #d3eed9;
+    border-collapse: collapse;
+}
+
+.food-table tr:hover {
+    background-color: #e07934;
+    color: white;
+}
+
+.food-table th:hover {
+    background-color: #e07934; 
+    color: white; 
+}
+
+.recipe {
+    border: 1px solid #70cf90;
+    border-radius: 15px;
+    margin: 15px auto;
+    text-align: match-parent;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #aeddb9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    align-content: center;
+}
+.text {
+    margin-block-start: 100;
+    border: 1px solid #70cf90;
+    border-radius: 15px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #aeddb9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
